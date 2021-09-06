@@ -19,12 +19,16 @@ https://cdn.mysql.com//Downloads/MySQLInstaller/mysql-installer-web-community-8.
 install and setup password 
 
  # 2 - installing MySQL connector for python
- Open anaconda prompt and run- 
+ Open anaconda prompt and run->
+
 	conda install -c anaconda mysql-connector-python
 
 # 3 - running and Practicing MySQL in Jupyter Notebook
+
 Run Jupyter notebook and create a new python notebook
-Run- 
+Run following code in a cell
+
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
